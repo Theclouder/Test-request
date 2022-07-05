@@ -34,5 +34,5 @@ def get_JSON(context):
 
 @then('I print the JSON')
 def print_JSON(context):
-    print(context.text)
+    #print(context.text)
     assert True
